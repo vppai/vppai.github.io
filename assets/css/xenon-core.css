@@ -1189,7 +1189,7 @@ body {
 }
 
 .sidebar-menu.fixed .sidebar-menu-inner {
-    /*固定左栏 By shenweiyan*/
+    /*固定左栏 By seekme*/
     /*position: fixed;*/
     position: fixed !important;
     left: 0;

@@ -1,7 +1,7 @@
 html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 body{width:100%;min-height:100vh;vertical-align:baseline;word-wrap:break-word;color:#282a2d;background:#f9f9f9;transition:background-color .3s}
 body,input,button,select,optgroup,option,textarea,blockquote,dd,dl,figure,form,pre,.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:"SF Pro SC","SF Pro Text","SF Pro Icons",PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
-//shenweiyan,调整全局字体大小
+//seekme,调整全局字体大小
 //body,html{height:100%;margin:0;padding:0;border:0}
 body,html{height:100%;margin:0;padding:0;border:0;font-size:14px;}
 a{color:#282a2d;outline:0!important;text-decoration:none}
@@ -94,7 +94,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .sidebar-popup i,.sidiebar-popup .label-Primary{display:none}
 .sidebar-popup.sidebar-menu-inner a span{margin-left:0px}
 
-/*shenweiyan, 左导航悬浮 sidebar-menu-inner 调整为 100px ------------start*/
+/*seekme, 左导航悬浮 sidebar-menu-inner 调整为 100px ------------start*/
 /* .sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:180px;width:180px;z-index:99}
  * .sidebar-popup.sidebar-menu-inner ul{width:180px}
  * .sidebar-popup.sidebar-menu-inner ul li{width:180px}
@@ -102,7 +102,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:90px;z-index:99}
 .sidebar-popup.sidebar-menu-inner ul{width:90px}
 .sidebar-popup.sidebar-menu-inner ul li{width:90px}
-/*shenweiyan, 左导航悬浮 sidebar-menu-inner 调整为 100px ------------end*/
+/*seekme, 左导航悬浮 sidebar-menu-inner 调整为 100px ------------end*/
 
 .sidebar-popup.sidebar-menu-inner ul li:last-child,.sidebar-popup>div>ul>li:last-child>a{border-radius:0 0 5px 5px }
 .sidebar-popup a{padding-right:16px}
@@ -427,10 +427,10 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 #search button{position:absolute;top:0;right:0;background:#313437;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
 #search button:hover{background:#000;cursor:pointer}
 
-/*shenweiyan:搜索框搜索图标颜色----------start*/
+/*seekme:搜索框搜索图标颜色----------start*/
 /*#search button i{color:#fff;font-size:18px}*/
 #search button i{color:#6c757d;font-size:18px}
-/*shenweiyan:搜索框搜索图标颜色----------end*/
+/*seekme:搜索框搜索图标颜色----------end*/
 
 #search .search-select{height:50px;cursor:pointer;border:none;background-color:#fff;transition:.3s}
 #search .input-group-prepend:not(.d-none)+.search-key{border-top-left-radius:0;border-bottom-left-radius:0}
@@ -504,7 +504,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .fancybox-slide--iframe.fancybox-slide{padding:44px 0}
 .fancybox-toolbar{right:calc(50% - 22px);top:22px}
 .big-header-banner.header-bg .page-header{color:initial;backdrop-filter: blur(10px);background:rgba(255,255,255,.7)}
-/*shenweiyan, 主页导航栏字体颜色----------start*/
+/*seekme, 主页导航栏字体颜色----------start*/
 /* .big-header-banner .page-header{color:#fff;background:rgba(255,255,255,0);box-shadow:none;transition:color .3s,background-color .3s}
  * .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#eee;}
  * .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#eee}
@@ -516,17 +516,17 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#6c757d;}
 .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#dc3545;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#6c757d;}
-/*shenweiyan, 主页导航栏字体颜色hover----------end*/
+/*seekme, 主页导航栏字体颜色hover----------end*/
 .header-big{position:relative;margin-top:-75px;padding-top:30px;padding-bottom:60px}
 .header-big.bg-gradual:before{content: "";position: absolute;left: 0;height: 80px;right: 0;bottom: 0;background-image: linear-gradient(to top,#f9f9f9 0%,transparent 80%);transition:.3s}
 .header-big.css-img,.header-big.css-bing{background-color:#1b1d1f;background-size:cover;background-position:cover}
 .header-big.canvas-fx{background-color:#1b1d1f}
 .post-top{padding-bottom:10px}
 .header-big.no-bg{padding-bottom:10px}
-//shenweiyan: 调整header-banner样式---------------start
+//seekme: 调整header-banner样式---------------start
 //.header-big.css-color{background-size:400%;background-position:0% 100%;-webkit-animation:gradient 7.5s ease-in-out infinite;animation:gradient 7.5s ease-in-out infinite}
 //.header-big.css-color{background-size:100% 100%; background-position:100% 90%;}
-//shenweiyan: 调整header-banner样式---------------end
+//seekme: 调整header-banner样式---------------end
 
 @-webkit-keyframes gradient{50%{background-position:100% 0}
 }
@@ -544,24 +544,24 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .search-smart-tips{width:unset;left:20px;right:20px}
 .header-big .search-type input:checked+label,.header-big .search-type input:hover+label{position:relative;background:transparent!important}
 
-/*shenweiyan: 搜索activate图标颜色----------start*/
+/*seekme: 搜索activate图标颜色----------start*/
 /*.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:rgba(0,0,0,0.6) transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}*/
 .header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#6c757d transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
-/*shenweiyan: 搜索activate图标颜色----------end*/
+/*seekme: 搜索activate图标颜色----------end*/
 
 .header-big .search-type li label{padding-top:5px}
 .header-big .s-type-list{position:relative!important;display:inline-table;overflow:auto;white-space:nowrap;text-align:center;position:inherit;top:inherit;padding:inherit;width:none;background:none!important;border-radius:inherit;box-shadow:none!important}
-/*shenweiyan,主页搜索搜索框头部字体颜色----------start*/
+/*seekme,主页搜索搜索框头部字体颜色----------start*/
 /*.header-big:not(.no-bg) .s-type-list{color:#fff}*/
 .header-big:not(.no-bg) .s-type-list{color:#20c997}
-/*shenweiyan,主页搜索搜索框头部字体颜色----------end*/
+/*seekme,主页搜索搜索框头部字体颜色----------end*/
 .s-type:hover .s-type-list.big{display:inline-table}
 .header-big .s-type-list .anchor{background:#888;border-radius:100px;width:10px;height:4px;bottom:5px;-webkit-transition:.25s;transition:.25s}
 
-/*shenweiyan,主页搜索搜索框头部字体anchor图标颜色----------start*/
+/*seekme,主页搜索搜索框头部字体anchor图标颜色----------start*/
 /*.header-big:not(.no-bg) .s-type-list .anchor{background:#fff}*/
 .header-big:not(.no-bg) .s-type-list .anchor{background:#20c997}
-/*shenweiyan,主页搜索搜索框头部字体anchor图标颜色----------end*/
+/*seekme,主页搜索搜索框头部字体anchor图标颜色----------end*/
 
 .header-big .s-type-list label:hover{background:none}
 .header-big .s-type-list:before{display:none}
@@ -591,18 +591,18 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:none;border:0!important}
 /*.header-big .search-smart-tips{top:100px}*/
 .header-big .canvas-bg{position:absolute;top:0;width:100%;height:100%;border-width:0}
-//shenweiyan, 主页搜索搜索框底部字体颜色----------start
+//seekme, 主页搜索搜索框底部字体颜色----------start
 //.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#fff!important} 
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#6c757d!important}
-//shenweiyan, 主页搜索搜索框底部字体颜色----------end
+//seekme, 主页搜索搜索框底部字体颜色----------end
 .header-big.no-bg #search-text{color:#fff;border:none;background-color:rgba(0,0,0,0.2)!important}
 .header-big.no-bg .search-type input:checked+label:before{border-color:rgba(0,0,0,0.2) transparent transparent}
 .header-big .search-type li.menu-item{padding:5px 10px 0px 10px}
 @media screen and (min-width:768px){.header-big{padding-top:80px;padding-bottom:110px}
-//shenweiyan, 主页header-banner底部宽度----------start
+//seekme, 主页header-banner底部宽度----------start
 //.post-top{padding-bottom:20px}
 .post-top{padding-bottom:50px}
-//shenweiyan, 主页header-banner底部宽度----------end
+//seekme, 主页header-banner底部宽度----------end
 .header-big.no-bg{padding-bottom:20px}
 .header-big .search-type li label,.header-big .search-type li.menu-item{padding:5px 20px}
 .header-big .s-type-list label span{padding:10px 20px}
@@ -1052,10 +1052,10 @@ input.nav-link:disabled,input.nav-link[readonly]{background-color:transparent;op
 .io-grey-mode .page-header{box-shadow:none}
 .io-grey-mode .sidebar-nav-inner{background:#fff}
 .io-grey-mode .border-color{border-color:transparent!important}
-/*shenweiyan: 单个sidebar宽度调整为90px----------start*/
+/*seekme: 单个sidebar宽度调整为90px----------start*/
 /*.io-grey-mode .sidebar-nav .flex-bottom a,.io-grey-mode .sidebar-menu-inner a{color:#515C6B}*/
 .io-grey-mode .sidebar-nav .flex-bottom a,.io-grey-mode .sidebar-menu-inner a{color:#515C6B;}
-/*shenweiyan: 单个sidebar宽度调整为90px----------end*/
+/*seekme: 单个sidebar宽度调整为90px----------end*/
 .io-grey-mode .sidebar-item ul{background:none}
 .io-grey-mode .sidebar-show,.io-grey-mode .sidebar-item>a:hover{color:#f1404b;background:none}
 .io-grey-mode .sidebar-popup div{background:#dadbdd}
